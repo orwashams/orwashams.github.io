@@ -27,7 +27,13 @@ export const ReposShowcase = () => {
   }, []);
   return (
     <>
-      <>{response}</>
+      {response?.map((item) => (
+        <>
+          {item.full_name}
+          <br />
+          {item.description}
+        </>
+      ))}
     </>
   );
 };
