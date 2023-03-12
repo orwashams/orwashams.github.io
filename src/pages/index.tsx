@@ -15,9 +15,9 @@ const Home: NextPage = () => {
         <div className=" text-slate-800">
           {/* Details Part */}
           <div className="flex flex-col text-left leading-3">
-            <ReposShowcase />
             <p className="mb-3 text-5xl font-bold">Orwa Shams</p>
             <p className="text-2xl">Fullstack dev</p>
+            <ReposShowcase />
           </div>
         </div>
       </main>

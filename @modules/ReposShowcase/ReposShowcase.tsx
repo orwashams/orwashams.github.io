@@ -2,7 +2,12 @@ import React, { useEffect, useState } from "react";
 
 import { Octokit } from "octokit";
 import { type OctokitResponse } from "@octokit/types";
-import { type ReposType } from "@shared";
+
+import { Carousel } from "@mantine/carousel";
+
+import { type ReposType } from "@shared/types";
+
+import Repo from "./Repo";
 
 const fetchRepos = async () => {
   const octokit = new Octokit({
@@ -19,21 +24,33 @@ const fetchRepos = async () => {
 export const ReposShowcase = () => {
   const [response, setResponse] = useState<ReposType>();
 
+  const slides = response?.map((repo) => (
+    <Carousel.Slide key={repo.id.toString()}>
+      <Repo repo={repo} />
+    </Carousel.Slide>
+  ));
+
   useEffect(() => {
     void (async () => {
       const data = await fetchRepos();
       setResponse(data);
     })();
   }, []);
+
   return (
-    <>
-      {response?.map((item) => (
-        <>
-          {item.full_name}
-          <br />
-          {item.description}
-        </>
-      ))}
-    </>
+    <Carousel
+      slideSize="70%"
+      slideGap="md"
+      height={200}
+      controlsOffset="xs"
+      loop
+      align="center"
+      breakpoints={[
+        { maxWidth: "md", slideSize: "50%" },
+        { maxWidth: "sm", slideSize: "100%", slideGap: 0 },
+      ]}
+    >
+      {slides}
+    </Carousel>
   );
 };
