@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image, Text } from "@mantine/core";
+import { Card, Text } from "@mantine/core";
 import { BrandGithub } from "tabler-icons-react";
 import { type RepoType } from "@shared/types";
 
