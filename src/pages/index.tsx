@@ -11,14 +11,17 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex min-h-screen flex-col items-center justify-center bg-stone-200">
-        <div className=" text-slate-800">
+      <main className="flex h-screen min-h-screen flex-col items-center justify-items-start bg-stone-200">
+        <div className=" flex h-screen items-center">
           {/* Details Part */}
           <div className="flex flex-col text-left leading-3">
             <p className="mb-3 text-5xl font-bold">Orwa Shams</p>
-            <p className="text-2xl">Fullstack dev</p>
-            <ReposShowcase />
+            <p className="text-2xl">Fullstack Developer</p>
           </div>
+        </div>
+
+        <div className=" bottom-0 ">
+          <ReposShowcase />
         </div>
       </main>
     </>

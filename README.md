@@ -4,4 +4,4 @@
 
 ## Made with:
 
-[The T3 Stack](https://create.t3.gg/)
+[T3 Stack](https://create.t3.gg/)

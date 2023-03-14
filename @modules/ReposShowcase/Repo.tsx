@@ -9,9 +9,9 @@ type Props = {
 
 const Repo = ({ repo }: Props) => {
   return (
-    <Card shadow="lg">
-      <Card.Section className="flex justify-center">
-        <BrandGithub size={70} strokeWidth={2} color={"black"} />
+    <Card shadow="lg" p="xl" radius="md" withBorder bg={""}>
+      <Card.Section className=" flex justify-center" h={300}>
+        <BrandGithub size={80} strokeWidth={2} color={"black"} />
       </Card.Section>
 
       <Text weight={500} size="lg" mt="md">
