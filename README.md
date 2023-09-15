@@ -1,6 +1,6 @@
 # My Personal Website
 
-##WIP
+## WIP
 <img src="./public/logo/brand04_black.svg"/>
 
 <strong>
