@@ -8,7 +8,8 @@ export default function Home() {
           WIP
         </h1>
       </div>
-      <div className="flex gap-6 ">
+
+      <div className="flex  gap-6 ">
         <div>
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] animate-[bounce_1s_infinite_300ms]"
