@@ -9,14 +9,11 @@ import {
   commandWord,
 } from "@nojsja/crt-terminal";
 
-const bannerText = `
-Hello world!
+import { Command } from "./utils";
 
-And not only world
-`;
 export default function Terminal() {
   const eventQueue = useEventQueue();
-  const { print, clear } = eventQueue.handlers;
+  const handlers = eventQueue.handlers;
 
   return (
     <div className="flex ">
@@ -25,8 +22,25 @@ export default function Terminal() {
           queue={eventQueue}
           prompt={"root@orwa:~$ "}
           onCommand={(command) => {
-            if (command === "clear") {
-              clear();
+            switch (command) {
+              case Command.CLEAR:
+                handlers.clear();
+                break;
+              case Command.LS:
+                handlers.print([
+                  textLine({
+                    words: [
+                      textWord({ characters: "You entered\n command: " }),
+                    ],
+                  }),
+                  textLine({
+                    words: [
+                      textWord({ characters: "You\n entered\n command: " }),
+                    ],
+                  }),
+                ]);
+              default:
+                break;
             }
           }}
           focusOnMount={true}
