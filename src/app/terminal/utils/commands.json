@@ -1,0 +1,820 @@
+{
+  "commands": [
+    {
+      "name": "ls",
+      "description": "List files and directories in the current directory."
+    },
+    {
+      "name": "pwd",
+      "description": "Print the current working directory."
+    },
+    {
+      "name": "cd",
+      "description": "Change the current directory."
+    },
+    {
+      "name": "mkdir",
+      "description": "Create a new directory."
+    },
+    {
+      "name": "touch",
+      "description": "Create an empty file."
+    },
+    {
+      "name": "cp",
+      "description": "Copy files and directories."
+    },
+    {
+      "name": "mv",
+      "description": "Move or rename files and directories."
+    },
+    {
+      "name": "rm",
+      "description": "Remove files and directories."
+    },
+    {
+      "name": "cat",
+      "description": "Concatenate and display file content."
+    },
+    {
+      "name": "grep",
+      "description": "Search for text patterns in files."
+    },
+    {
+      "name": "find",
+      "description": "Search for files and directories."
+    },
+    {
+      "name": "tar",
+      "description": "Archive and compress files."
+    },
+    {
+      "name": "chmod",
+      "description": "Change file permissions."
+    },
+    {
+      "name": "chown",
+      "description": "Change file ownership."
+    },
+    {
+      "name": "ps",
+      "description": "List running processes."
+    },
+    {
+      "name": "top",
+      "description": "Display system resource usage."
+    },
+    {
+      "name": "kill",
+      "description": "Terminate processes."
+    },
+    {
+      "name": "ping",
+      "description": "Send ICMP echo requests to a host."
+    },
+    {
+      "name": "ifconfig",
+      "description": "Display and configure network interfaces."
+    },
+    {
+      "name": "netstat",
+      "description": "Network statistics and connections."
+    },
+    {
+      "name": "ssh",
+      "description": "Secure shell remote login."
+    },
+    {
+      "name": "scp",
+      "description": "Securely copy files between hosts."
+    },
+    {
+      "name": "wget",
+      "description": "Download files from the internet."
+    },
+    {
+      "name": "curl",
+      "description": "Transfer data from or to a server."
+    },
+    {
+      "name": "df",
+      "description": "Display disk space usage."
+    },
+    {
+      "name": "du",
+      "description": "Estimate file and directory space usage."
+    },
+    {
+      "name": "free",
+      "description": "Display memory usage."
+    },
+    {
+      "name": "sudo",
+      "description": "Execute a command as another user."
+    },
+    {
+      "name": "grep",
+      "description": "Search for text patterns in files."
+    },
+    {
+      "name": "awk",
+      "description": "Text processing and pattern matching."
+    },
+    {
+      "name": "sed",
+      "description": "Stream editor for text manipulation."
+    },
+    {
+      "name": "head",
+      "description": "Display the beginning of a file."
+    },
+    {
+      "name": "tail",
+      "description": "Display the end of a file."
+    },
+    {
+      "name": "sort",
+      "description": "Sort lines in text files."
+    },
+    {
+      "name": "uniq",
+      "description": "Remove duplicate lines from sorted files."
+    },
+    {
+      "name": "wc",
+      "description": "Word, line, character, and byte count."
+    },
+    {
+      "name": "diff",
+      "description": "Compare files and directories."
+    },
+    {
+      "name": "patch",
+      "description": "Apply changes to files using patches."
+    },
+    {
+      "name": "history",
+      "description": "Display command history."
+    },
+    {
+      "name": "alias",
+      "description": "Create and display command aliases."
+    },
+    {
+      "name": "export",
+      "description": "Set environment variables."
+    },
+    {
+      "name": "echo",
+      "description": "Print text to the terminal."
+    },
+    {
+      "name": "date",
+      "description": "Display or set the system date and time."
+    },
+    {
+      "name": "uptime",
+      "description": "Show how long the system has been running."
+    },
+    {
+      "name": "shutdown",
+      "description": "Shut down or reboot the system."
+    },
+    {
+      "name": "lsblk",
+      "description": "List information about block devices."
+    },
+    {
+      "name": "df",
+      "description": "Display disk space usage."
+    },
+    {
+      "name": "mount",
+      "description": "Mount and unmount file systems."
+    },
+    {
+      "name": "umount",
+      "description": "Unmount file systems."
+    },
+    {
+      "name": "lsusb",
+      "description": "List USB devices."
+    },
+    {
+      "name": "lspci",
+      "description": "List PCI devices."
+    },
+    {
+      "name": "lsmod",
+      "description": "List loaded kernel modules."
+    },
+    {
+      "name": "dmesg",
+      "description": "Display kernel messages."
+    },
+    {
+      "name": "cron",
+      "description": "Schedule and manage periodic tasks."
+    },
+    {
+      "name": "at",
+      "description": "Execute commands at a specified time."
+    },
+    {
+      "name": "crontab",
+      "description": "Edit and manage user crontab files."
+    },
+    {
+      "name": "ssh-keygen",
+      "description": "Generate SSH key pairs."
+    },
+    {
+      "name": "ssh-copy-id",
+      "description": "Copy SSH keys to remote hosts."
+    },
+    {
+      "name": "chroot",
+      "description": "Change the root directory for a command."
+    },
+    {
+      "name": "sudo",
+      "description": "Execute a command as another user."
+    },
+    {
+      "name": "useradd",
+      "description": "Create a new user account."
+    },
+    {
+      "name": "userdel",
+      "description": "Delete a user account."
+    },
+    {
+      "name": "passwd",
+      "description": "Change user passwords."
+    },
+    {
+      "name": "groups",
+      "description": "Display a user's group memberships."
+    },
+    {
+      "name": "su",
+      "description": "Switch user or become superuser."
+    },
+    {
+      "name": "visudo",
+      "description": "Edit the sudoers file safely."
+    },
+    {
+      "name": "ifconfig",
+      "description": "Display and configure network interfaces."
+    },
+    {
+      "name": "netstat",
+      "description": "Network statistics and connections."
+    },
+    {
+      "name": "route",
+      "description": "View and configure routing tables."
+    },
+    {
+      "name": "iptables",
+      "description": "Configure IP packet filtering rules."
+    },
+    {
+      "name": "nc",
+      "description": "Netcat, a networking utility."
+    },
+    {
+      "name": "wget",
+      "description": "Download files from the internet."
+    },
+    {
+      "name": "curl",
+      "description": "Transfer data from or to a server."
+    },
+    {
+      "name": "ssh",
+      "description": "Secure shell remote login."
+    },
+    {
+      "name": "scp",
+      "description": "Securely copy files between hosts."
+    },
+    {
+      "name": "rsync",
+      "description": "Remote file synchronization."
+    },
+    {
+      "name": "ncdu",
+      "description": "NCurses Disk Usage, a disk space analyzer."
+    },
+    {
+      "name": "htop",
+      "description": "Interactive process viewer."
+    },
+    {
+      "name": "iftop",
+      "description": "Display bandwidth usage on an interface."
+    },
+    {
+      "name": "vmstat",
+      "description": "Virtual memory statistics."
+    },
+    {
+      "name": "iostat",
+      "description": "Input/Output statistics."
+    },
+    {
+      "name": "df",
+      "description": "Display disk space usage."
+    },
+    {
+      "name": "du",
+      "description": "Estimate file and directory space usage."
+    },
+    {
+      "name": "free",
+      "description": "Display memory usage."
+    },
+    {
+      "name": "ps",
+      "description": "List running processes."
+    },
+    {
+      "name": "top",
+      "description": "Display system resource usage."
+    },
+    {
+      "name": "kill",
+      "description": "Terminate processes."
+    },
+    {
+      "name": "pkill",
+      "description": "Signal processes based on their name."
+    },
+    {
+      "name": "pgrep",
+      "description": "List processes based on their name."
+    },
+    {
+      "name": "uptime",
+      "description": "Show how long the system has been running."
+    },
+    {
+      "name": "shutdown",
+      "description": "Shut down or reboot the system."
+    },
+    {
+      "name": "reboot",
+      "description": "Reboot the system."
+    },
+    {
+      "name": "halt",
+      "description": "Halt the system."
+    },
+    {
+      "name": "init",
+      "description": "Change the system's run level."
+    },
+    {
+      "name": "lsblk",
+      "description": "List information about block devices."
+    },
+    {
+      "name": "df",
+      "description": "Display disk space usage."
+    },
+    {
+      "name": "mount",
+      "description": "Mount and unmount file systems."
+    },
+    {
+      "name": "umount",
+      "description": "Unmount file systems."
+    },
+    {
+      "name": "lsusb",
+      "description": "List USB devices."
+    },
+    {
+      "name": "lspci",
+      "description": "List PCI devices."
+    },
+    {
+      "name": "lsmod",
+      "description": "List loaded kernel modules."
+    },
+    {
+      "name": "dmesg",
+      "description": "Display kernel messages."
+    },
+    {
+      "name": "cron",
+      "description": "Schedule and manage periodic tasks."
+    },
+    {
+      "name": "at",
+      "description": "Execute commands at a specified time."
+    },
+    {
+      "name": "crontab",
+      "description": "Edit and manage user crontab files."
+    },
+    {
+      "name": "ssh-keygen",
+      "description": "Generate SSH key pairs."
+    },
+    {
+      "name": "ssh-copy-id",
+      "description": "Copy SSH keys to remote hosts."
+    },
+    {
+      "name": "chroot",
+      "description": "Change the root directory for a command."
+    },
+    {
+      "name": "sudo",
+      "description": "Execute a command as another user."
+    },
+    {
+      "name": "useradd",
+      "description": "Create a new user account."
+    },
+    {
+      "name": "userdel",
+      "description": "Delete a user account."
+    },
+    {
+      "name": "passwd",
+      "description": "Change user passwords."
+    },
+    {
+      "name": "groups",
+      "description": "Display a user's group memberships."
+    },
+    {
+      "name": "su",
+      "description": "Switch user or become superuser."
+    },
+    {
+      "name": "visudo",
+      "description": "Edit the sudoers file safely."
+    },
+    {
+      "name": "df",
+      "description": "Display disk space usage."
+    },
+    {
+      "name": "du",
+      "description": "Estimate file and directory space usage."
+    },
+    {
+      "name": "free",
+      "description": "Display memory usage."
+    },
+    {
+      "name": "ping",
+      "description": "Send ICMP echo requests to a host."
+    },
+    {
+      "name": "traceroute",
+      "description": "Trace the route to a host."
+    },
+    {
+      "name": "nc",
+      "description": "Netcat, a networking utility."
+    },
+    {
+      "name": "telnet",
+      "description": "Remote terminal connection."
+    },
+    {
+      "name": "ftp",
+      "description": "File Transfer Protocol client."
+    },
+    {
+      "name": "curl",
+      "description": "Transfer data from or to a server."
+    },
+    {
+      "name": "wget",
+      "description": "Download files from the internet."
+    },
+    {
+      "name": "ping6",
+      "description": "Send ICMPv6 echo requests to a host."
+    },
+    {
+      "name": "dig",
+      "description": "DNS lookup utility."
+    },
+    {
+      "name": "host",
+      "description": "DNS lookup utility."
+    },
+    {
+      "name": "whois",
+      "description": "Domain information lookup."
+    },
+    {
+      "name": "nslookup",
+      "description": "Query DNS servers."
+    },
+    {
+      "name": "route",
+      "description": "View and configure routing tables."
+    },
+    {
+      "name": "iptables",
+      "description": "Configure IP packet filtering rules."
+    },
+    {
+      "name": "netcat",
+      "description": "Network connection utility."
+    },
+    {
+      "name": "traceroute6",
+      "description": "Trace the route to a host using ICMPv6."
+    },
+    {
+      "name": "hostname",
+      "description": "Display or set the system's hostname."
+    },
+    {
+      "name": "ifconfig",
+      "description": "Display and configure network interfaces."
+    },
+    {
+      "name": "iwconfig",
+      "description": "Configure wireless network interfaces."
+    },
+    {
+      "name": "lshw",
+      "description": "List hardware configuration."
+    },
+    {
+      "name": "lsusb",
+      "description": "List USB devices."
+    },
+    {
+      "name": "lspci",
+      "description": "List PCI devices."
+    },
+    {
+      "name": "lsmod",
+      "description": "List loaded kernel modules."
+    },
+    {
+      "name": "dmesg",
+      "description": "Display kernel messages."
+    },
+    {
+      "name": "shutdown",
+      "description": "Shut down or reboot the system."
+    },
+    {
+      "name": "reboot",
+      "description": "Reboot the system."
+    },
+    {
+      "name": "halt",
+      "description": "Halt the system."
+    },
+    {
+      "name": "init",
+      "description": "Change the system's run level."
+    },
+    {
+      "name": "chroot",
+      "description": "Change the root directory for a command."
+    },
+    {
+      "name": "systemctl",
+      "description": "Control systemd services."
+    },
+    {
+      "name": "journalctl",
+      "description": "Query and view systemd journal logs."
+    },
+    {
+      "name": "iptables",
+      "description": "Configure IP packet filtering rules."
+    },
+    {
+      "name": "ufw",
+      "description": "Uncomplicated Firewall configuration."
+    },
+    {
+      "name": "firewalld",
+      "description": "Firewall daemon for managing iptables."
+    },
+    {
+      "name": "tcpdump",
+      "description": "Packet analyzer."
+    },
+    {
+      "name": "nmap",
+      "description": "Network mapper and port scanner."
+    },
+    {
+      "name": "iftop",
+      "description": "Display bandwidth usage on an interface."
+    },
+    {
+      "name": "htop",
+      "description": "Interactive process viewer."
+    },
+    {
+      "name": "iotop",
+      "description": "Monitor I/O usage by processes."
+    },
+    {
+      "name": "ncdu",
+      "description": "NCurses Disk Usage, a disk space analyzer."
+    },
+    {
+      "name": "vmstat",
+      "description": "Virtual memory statistics."
+    },
+    {
+      "name": "iostat",
+      "description": "Input/Output statistics."
+    },
+    {
+      "name": "free",
+      "description": "Display memory usage."
+    },
+    {
+      "name": "dd",
+      "description": "Convert and copy files."
+    },
+    {
+      "name": "mkfs",
+      "description": "Create a file system."
+    },
+    {
+      "name": "fdisk",
+      "description": "Partition table manipulator."
+    },
+    {
+      "name": "mount",
+      "description": "Mount and unmount file systems."
+    },
+    {
+      "name": "umount",
+      "description": "Unmount file systems."
+    },
+    {
+      "name": "parted",
+      "description": "Partition manipulation tool."
+    },
+    {
+      "name": "fsck",
+      "description": "File system consistency check and repair."
+    },
+    {
+      "name": "du",
+      "description": "Estimate file and directory space usage."
+    },
+    {
+      "name": "find",
+      "description": "Search for files and directories."
+    },
+    {
+      "name": "locate",
+      "description": "Find files by name quickly."
+    },
+    {
+      "name": "grep",
+      "description": "Search for text patterns in files."
+    },
+    {
+      "name": "awk",
+      "description": "Text processing and pattern matching."
+    },
+    {
+      "name": "sed",
+      "description": "Stream editor for text manipulation."
+    },
+    {
+      "name": "tar",
+      "description": "Archive and compress files."
+    },
+    {
+      "name": "zip",
+      "description": "Compress files into ZIP format."
+    },
+    {
+      "name": "unzip",
+      "description": "Extract files from ZIP archives."
+    },
+    {
+      "name": "rar",
+      "description": "Create and extract RAR archives."
+    },
+    {
+      "name": "df",
+      "description": "Display disk space usage."
+    },
+    {
+      "name": "quota",
+      "description": "Display and manage disk quotas."
+    },
+    {
+      "name": "ssh",
+      "description": "Secure shell remote login."
+    },
+    {
+      "name": "scp",
+      "description": "Securely copy files between hosts."
+    },
+    {
+      "name": "rsync",
+      "description": "Remote file synchronization."
+    },
+    {
+      "name": "rsyslog",
+      "description": "System logging daemon."
+    },
+    {
+      "name": "journalctl",
+      "description": "Query and view systemd journal logs."
+    },
+    {
+      "name": "cron",
+      "description": "Schedule and manage periodic tasks."
+    },
+    {
+      "name": "at",
+      "description": "Execute commands at a specified time."
+    },
+    {
+      "name": "crontab",
+      "description": "Edit and manage user crontab files."
+    },
+    {
+      "name": "systemctl",
+      "description": "Control systemd services."
+    },
+    {
+      "name": "chkconfig",
+      "description": "Change system runlevel settings."
+    },
+    {
+      "name": "passwd",
+      "description": "Change user passwords."
+    },
+    {
+      "name": "useradd",
+      "description": "Create a new user account."
+    },
+    {
+      "name": "userdel",
+      "description": "Delete a user account."
+    },
+    {
+      "name": "usermod",
+      "description": "Modify user account properties."
+    },
+    {
+      "name": "groups",
+      "description": "Display a user's group memberships."
+    },
+    {
+      "name": "su",
+      "description": "Switch user or become superuser."
+    },
+    {
+      "name": "sudo",
+      "description": "Execute a command as another user."
+    },
+    {
+      "name": "visudo",
+      "description": "Edit the sudoers file safely."
+    },
+    {
+      "name": "chown",
+      "description": "Change file ownership."
+    },
+    {
+      "name": "chgrp",
+      "description": "Change group ownership."
+    },
+    {
+      "name": "chmod",
+      "description": "Change file permissions."
+    },
+    {
+      "name": "umask",
+      "description": "Set default file permissions."
+    },
+    {
+      "name": "quota",
+      "description": "Display and manage disk quotas."
+    },
+    {
+      "name": "adduser",
+      "description": "Add a new user to the system."
+    }
+  ]
+}
