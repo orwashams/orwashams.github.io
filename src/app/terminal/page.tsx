@@ -1,11 +1,10 @@
+/* eslint-disable no-unused-vars */
 "use client";
 
 import { useEffect, useState } from "react";
 import {
   Terminal as Term,
   commandWord,
-  textLine,
-  textWord,
   useEventQueue,
 } from "@nojsja/crt-terminal";
 
@@ -24,6 +23,7 @@ export default function Terminal() {
     name: string;
     description: string;
   }>;
+
   useEffect(() => {
     setTerminalPrompt(`orwa@proxy:${cwd}$ `);
   }, [cwd]);
@@ -44,7 +44,6 @@ export default function Terminal() {
                 handlers.print(getLsResponse());
                 break;
               case Command.CD:
-                setCwd(() => commandWord);
                 break;
               default:
                 break;
