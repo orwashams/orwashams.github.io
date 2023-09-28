@@ -43,19 +43,25 @@ const INFO = {
   Software Developer with a strong passion for open-source software and extensive 
   experience in utilizing Linux systems. I am dedicated to refining and customizing 
   software solutions to achieve the highest levels of performance and functionality. 
-  My ability to quickly grasp new concepts allows me to adapt to emerging technologies and methodologies with ease. 
-  Additionally, I am flexible when it comes to location and working hours, always willing to go the extra mile to meet project deadlines. 
-  My  commitment to delivering outstanding results and ensuring client satisfaction sets me apart in the industry.
+  My ability to quickly grasp new concepts allows me to 
+  adapt to emerging technologies and methodologies with ease. 
+  Additionally, I am flexible when it comes to location and working hours, 
+  always willing to go the extra mile to meet project deadlines. 
+  My  commitment to delivering outstanding results and ensuring client satisfaction 
+  sets me apart in the industry.
   `,
   EXPERIENCE: `
   RunnableWeb 12/2022 - 5/2023
 
   Frontend Developer
 
-  In addition to my primary role as a Frontend developer, I possess versatility in working with both the frontend and backend components. 
-  Alongside technologies like React, React Native, Tailwind/Nativewind, NextJS, and NodeJS, I also proficiently utilize PostgreSQL, 
+  In addition to my primary role as a Frontend developer, 
+  I possess versatility in working with both the frontend and backend components. 
+  Alongside technologies like React, React Native, Tailwind/Nativewind, NextJS, and NodeJS, 
+  I also proficiently utilize PostgreSQL, 
   SQL, and NestJS for backend development. 
-  This well-rounded skill set enables me to contribute effectively to the full-stack development process, 
+  This well-rounded skill set enables me to contribute effectively to the 
+  full-stack development process, 
   ensuring seamless integration and optimal functionality across the entire application ecosystem.
   `,
   SKILLS: `
@@ -84,9 +90,12 @@ const INFO = {
   B.Sc. CS
 
   Throughout my four-year B.Sc. in Computer Science, 
-  I gained expertise in programming, algorithms, software engineering, and more. 
-  Hands-on projects and collaborative work sharpened my problem-solving and communication skills. 
-  With a strong foundation, I'm prepared to contribute innovative solutions in this highly dynamic and changing field of technology.
+  I gained expertise in programming, algorithms, 
+  software engineering, and more. 
+  Hands-on projects and collaborative work sharpened 
+  my problem-solving and communication skills. 
+  With a strong foundation, I'm prepared to contribute innovative solutions in this 
+  highly dynamic and changing field of technology.
   `,
   SPOKEN_LANGUAGES: `
   Arabic - Native speaker

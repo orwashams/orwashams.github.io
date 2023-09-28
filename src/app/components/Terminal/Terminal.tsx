@@ -41,6 +41,7 @@ export default function Terminal() {
       printer={{ charactersPerTick: 14 }}
       queue={eventQueue}
       prompt={terminalPrompt}
+      focusOnMount={true}
       onCommand={(command) => {
         const split_command = command.split(" ");
         console.log(split_command);
@@ -166,7 +167,6 @@ export default function Terminal() {
           }
         }
       }}
-      focusOnMount={true}
     />
   );
 }

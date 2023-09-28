@@ -1,19 +1,20 @@
 import Image from "next/image";
-import Terminal from "./terminal/TeminalUtil";
+import { Terminal } from "./components/Terminal";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center ">
-      <div className="flex items-center justify-center gap-56 bg-red-700">
-        <div className="flex flex-col items-center justify-center bg-blue-600">
+    <main className="flex min-h-screen flex-col items-center justify-center">
+      <div className="flex ">
+        <div className=" h-[40rem] w-[40rem] flex items-center justify-center">
           <Image
             src="logo/brand04_white.svg"
-            alt="logo"
+            alt="Orwa's brand logo"
             width={100}
             height={100}
           />
         </div>
-        <div className="bg-purple-500">
+
+        <div className=" h-[40rem] w-[69rem]">
           <Terminal />
         </div>
       </div>
