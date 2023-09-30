@@ -117,7 +117,12 @@ export default function Terminal() {
               ]);
               break;
             }
-            if (cwd !== "/personal" && operatedOn in FolderStructure) {
+            if (
+              cwd !== "/personal" &&
+              Object.values(FolderStructure).includes(
+                operatedOn as keyof FolderStructure
+              )
+            ) {
               handlers.print([
                 textLine({
                   words: [
