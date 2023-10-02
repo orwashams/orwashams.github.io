@@ -55,13 +55,13 @@ const INFO = {
 
   Frontend Developer
 
-  In addition to my primary role as a Frontend developer, 
-  I possess versatility in working with both the frontend and backend components. 
-  Alongside technologies like React, React Native, Tailwind/Nativewind, NextJS, and NodeJS, 
-  I also proficiently utilize PostgreSQL, 
+  In addition to my primary role as a Frontend developer,
+  I possess versatility in working with both the frontend and backend components.
+  Alongside technologies like React, React Native, Tailwind/Nativewind, NextJS, and NodeJS,
+  I also proficiently utilize PostgreSQL,
   SQL, and NestJS for backend development. 
-  This well-rounded skill set enables me to contribute effectively to the 
-  full-stack development process, 
+  This well-rounded skill set enables me to contribute effectively to the
+  full-stack development process,
   ensuring seamless integration and optimal functionality across the entire application ecosystem.
   `,
   SKILLS: `
@@ -89,7 +89,7 @@ const INFO = {
   
   B.Sc. CS
 
-  Throughout my four-year B.Sc. in Computer Science, 
+  Throughout my four-year B.Sc. in Computer Science,
   I gained expertise in programming, algorithms, 
   software engineering, and more. 
   Hands-on projects and collaborative work sharpened 
@@ -105,8 +105,9 @@ const INFO = {
   Hebrew - Close to fluent speaker, expert writer, fluent reader 
 `,
   CONTACT: `
-  Phone: Israel - +972 52-799-3103 
-  Email: orwa.s.shams@gmail.com
+  Phone: Israel - +972 52-799-3103.
+
+  Email: orwa.s.shams@gmail.com.
   `,
   PROJECTS: `
   At:

@@ -815,6 +815,10 @@
     {
       "name": "adduser",
       "description": "Add a new user to the system."
+    },
+    {
+      "name": "ln",
+      "description": "Create hard links by default, symbolic links with --symbolic."
     }
   ]
 }

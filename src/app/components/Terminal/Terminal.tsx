@@ -18,6 +18,7 @@ import {
 } from "./utils";
 
 import cmds from "./utils/commands.json";
+import { useMediaQuery } from "@mantine/hooks";
 
 export default function Terminal() {
   const eventQueue = useEventQueue();
@@ -25,6 +26,7 @@ export default function Terminal() {
 
   const [cwd, setCwd] = useState("~");
   const [terminalPrompt, setTerminalPrompt] = useState("orwa@proxy:~$ ");
+  const isMobile = useMediaQuery("(max-width: 50em)");
 
   // Serialized commands from json
   const commands = cmds["commands"] as Array<{
@@ -41,10 +43,8 @@ export default function Terminal() {
       printer={{ charactersPerTick: 14 }}
       queue={eventQueue}
       prompt={terminalPrompt}
-      focusOnMount={true}
       onCommand={(command) => {
         const split_command = command.split(" ");
-        console.log(split_command);
 
         const operator = split_command[0];
         const operatedOn =

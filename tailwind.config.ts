@@ -16,6 +16,15 @@ const config: Config = {
       fontFamily: {
         VT323: ["VT323"],
       },
+      animation: {
+        blink: "blink 1.8s infinite",
+      },
+    },
+  },
+  variants: {
+    extend: {
+      opacity: ["peer-hover"],
+      animation: ["peer-hover"],
     },
   },
   plugins: [],
