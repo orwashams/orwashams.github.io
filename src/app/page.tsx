@@ -11,11 +11,10 @@ export default function Home() {
             <div className="flex flex-col gap-8 items-center ">
               <div className="p-6">
                 <Image
-                  src="logo/brand04_white.svg"
+                  src="logo/brand04_white.png"
                   alt="Orwa"
                   width={200}
                   height={200}
-                  priority
                 />
               </div>
               <div>
