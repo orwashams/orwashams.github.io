@@ -105,9 +105,11 @@ const INFO = {
   Hebrew - Close to fluent speaker, expert writer, fluent reader 
 `,
   CONTACT: `
-  Phone: Israel - +972 52-799-3103.
+  Phone: 
+  Israel - +972 52-799-3103.
 
-  Email: orwa.s.shams@gmail.com.
+  Email: 
+  orwa.s.shams@gmail.com.
   `,
   PROJECTS: `
   At:
